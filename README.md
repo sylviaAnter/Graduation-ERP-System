@@ -1,6 +1,6 @@
 # Graduation-ERP-System
 A full-featured Graduation Project ERP System integrating E-commerce, HR, Delivery, Stock Management, and Garage Hardware System.
-📌 Graduation ERP System
+📌 Graduation ERP System (Using Laravel 10 , HTML , css ,js)
 📝 Overview
 
 This project is a Graduation ERP System designed to integrate and manage multiple business operations within a single platform.
