@@ -1,3 +1,5 @@
+<img width="402" height="240" alt="image" src="https://github.com/user-attachments/assets/22a8a0b4-6bf0-4a43-ac2a-3a8a84a7bb9b" />
+
 # Graduation-ERP-System
 A full-featured Graduation Project ERP System integrating E-commerce, HR, Delivery, Stock Management, and Garage Hardware System.
 📌 Graduation ERP System (Using Laravel 10 , HTML , css ,js)
