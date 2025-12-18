@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-b7Lz4B7jXBa8n1xMJLd6Q2IKrAYgRAv0OPrsOdFf2Vo1DwkunyCsWZ3MJS/UrFbfAf8h6zNlLZix9VkIuXoLzA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-navbar shadow-sm sticky-top">
+        <div class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <h5 class="brand-name">Intell$Mart</h5>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <form role="search">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search your product" class="form-control" />
+                                <button class="btn bg-white" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                                <button class="btn bg-white" type="button">
+                                    <i class="fa fa-camera"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="signin.html">
+                                    <i class="fa fa-android"></i> Chatbot
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="signin.html">
+                                    <i class="fa fa-shopping-cart"></i> Cart (0)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="signin.html">
+                                    <i class="fa fa-heart"></i> Wishlist (0)
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-user"></i> Username
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+                                    <li><a class="dropdown-item" href="OrderHistory.html"><i class="fa fa-list"></i> My
+                                            Orders</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="cart.html"><i class="fa fa-shopping-cart"></i> My
+                                            Cart</a></li>
+                                    <li><a class="dropdown-item" href="signin.html"><i class="fa fa-sign-out"></i>
+                                            Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+                    Intell$Mart
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="allCategoriesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                All Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="allCategoriesDropdown">
+                                <li><a class="dropdown-item" href="#">Category 1</a></li>
+                                <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                <li><a class="dropdown-item" href="#">Category 3</a></li>
+                                <!-- Add more categories -->
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fashions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News and Announcements </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- slider and section 1 kolo -->
+    <section class="sects">
+        <div class="Container">
+            <div class="slider">
+                <div class="imgBox">
+                    <div class="eachimage">
+                        <img src="img/si2.jpg" alt="">
+                    </div>
+                    <div class="eachimage">
+                        <img src="img/si1.jpg" alt="">
+                    </div>
+                    <div class="eachimage">
+                        <img src="img/si4.jpg" alt="">
+                    </div>
+                    <div class="eachimage">
+                        <img src="img/gg.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Cont-1">
+                <div class="product">
+                    <div class="catbox">
+                        <h3>Winter Outfits | Wide Selection</h3>
+                        <div class="eachBox">
+                            <div>
+                                <img src="img/j.jpg" alt="">
+                                <span>women's jackets</span>
+                            </div>
+                            <div>
+                                <img src="img/bootsw.jpg" alt="">
+                                <span>women's boots</span>
+                            </div>
+                            <div>
+                                <img src="img/jm.jpg" alt="">
+                                <span>men's jackets</span>
+                            </div>
+                            <div>
+                                <img src="img/bootsm.jpg" alt="">
+                                <span>men's boots</span>
+                            </div>
+
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                    <!-- llllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+                    <div class="catbox">
+                        <h3>Kitchen essential | Up to 15% off</h3>
+                        <div class="eachBox">
+                            <div>
+                                <img src="img/kx.jpg" alt="">
+                                <span>kitchen appliance</span>
+                            </div>
+                            <div>
+                                <img src="img/k2x.jpg" alt="">
+                                <span>utensils</span>
+                            </div>
+                            <div>
+                                <img src="img/k3x.jpg" alt="">
+                                <span>drinkware</span>
+                            </div>
+                            <div>
+                                <img src="img/k4x.jpg" alt="">
+                                <span>tableware</span>
+                            </div>
+
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                    <!-- llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+                    <div class="catbox">
+                        <h3>Electronics | Free Delivery</h3>
+                        <div class="eachBox">
+                            <div>
+                                <img src="img/p1x.jpg" alt="">
+                                <span>headphones</span>
+                            </div>
+                            <div>
+                                <img src="img/p2x.jpg" alt="">
+                                <span>smartwatches</span>
+                            </div>
+                            <div>
+                                <img src="img/p3x.jpg" alt="">
+                                <span>speaker</span>
+                            </div>
+                            <div>
+                                <img src="img/p4x.jpg" alt="">
+                                <span>power banks</span>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                    <!-- lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+                    <div class="catbox">
+                        <h3>special Offers</h3>
+                        <div class="eachBox-spec">
+                            <div>
+                                <img src="img/offers.jpg" alt="">
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="Cont-2">
+                <div class="product-2">
+                    <div class="catbox-2">
+                        <h3>Beauty Section</h3>
+                        <div class="eachBox-2">
+                            <div>
+                                <img src="img/h1x.jpg" alt="">
+                                <span>perfumes</span>
+                            </div>
+                            <div>
+                                <img src="img/h2x.jpg" alt="">
+                                <span>beauty appliance</span>
+                            </div>
+                            <div>
+                                <img src="img/h3x.jpg" alt="">
+                                <span>skin care</span>
+                            </div>
+                            <div>
+                                <img src="img/h4x.jpg" alt="">
+                                <span>makeup</span>
+                            </div>
+
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                    <!-- llllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+                    <div class="catbox-2">
+                        <h3>Furniture best deals</h3>
+                        <div class="eachBox-2">
+                            <div>
+                                <img src="img/ccc.jpg" alt="">
+                                <span>BEDROOM </span>
+                            </div>
+                            <div>
+                                <img src="img/m.jpg" alt="">
+                                <span>LIVING ROOM </span>
+                            </div>
+                            <div>
+                                <img src="img/x.jpg" alt="">
+                                <span>OFFICE </span>
+                            </div>
+                            <div>
+                                <img src="img/xx.jpg" alt="">
+                                <span>BABY & NURSERY</span>
+                            </div>
+
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                    <!-- llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+                    <div class="catbox-2">
+                        <h3>Books</h3>
+                        <div class="eachBox-2">
+                            <div>
+                                <img src="img/bb1x.jpg" alt="">
+                                <span>law</span>
+                            </div>
+                            <div>
+                                <img src="img/bb2xx.jpg" alt="">
+                                <span>childern</span>
+                            </div>
+                            <div>
+                                <img src="img/bb3x.jpg" alt="">
+                                <span>art</span>
+                            </div>
+                            <div>
+                                <img src="img/bb4x.jpg" alt="">
+                                <span>science</span>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                    <!-- lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+                    <div class="catbox-2">
+                        <h3>Today's Deal</h3>
+                        <div class="eachBox-2">
+                            <div>
+                                <img src="img/o1x.jpg" alt="">
+                                <span>Up to 40% off</span>
+                            </div>
+                            <div>
+                                <img src="img/o2x.jpg" alt="">
+                                <span>Up to 33% off</span>
+                            </div>
+                            <div>
+                                <img src="img/o3x.jpg" alt="">
+                                <span>Up to 50% off</span>
+                            </div>
+                            <div>
+                                <img src="img/o4x.jpg" alt="">
+                                <span>Up to 10% off</span>
+                            </div>
+                        </div>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////////////////
+
+
+                       part_2 slider with buttons 
+                     -->
+
+
+
+
+
+    <div class="bigdivdeal">
+        <div class="sliderwithprice">
+            <h2>Deals Under 25$</h2>
+            <div class="productsInSlider">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/bootsm.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/jm.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/bootsw.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/f1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/p1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/p2x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/o1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/h1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="bigdivslider">
+        <div class="sliders">
+            <h2>Shop Today's Deals</h2>
+            <div class="productsInSlider">
+                <img src="img/o1x.jpg" alt="">
+                <img src="img/o2x.jpg" alt="">
+                <img src="img/o3x.jpg" alt="">
+                <img src="img/ss9.jpg" alt="">
+                <img src="img/h1x.jpg" alt="">
+                <img src="img/h2x.jpg" alt="">
+                <img src="img/h3x.jpg" alt="">
+                <img src="img/o4x.jpg" alt="">
+                <img src="img/h4x.jpg" alt="">
+                <img src="img/p2x.jpg" alt="">
+                <img src="img/p1x.jpg" alt="">
+                <img src="img/p3x.jpg" alt="">
+                <img src="img/p4x.jpg" alt="">
+                <img src="img/ss1.jpg" alt="">
+                <img src="img/ss10.jpg" alt="">
+                <img src="img/s102.jpg" alt="">
+                <img src="img/mm.jpg" alt="">
+                <img src="img/ss4.jpg" alt="">
+                <img src="img/ss5.jpg" alt="">
+                <img src="img/s.jpg" alt="">
+                <img src="img/ss7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="big_div">
+        <div class="box-row">
+            <div class="box-col">
+                <h3>Shop Valentine's Day</h3>
+                <img src="img/aghaby.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>accessories | Below 49 EGP</h3>
+                <img src="img/mobb.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+
+            <div class="box-col">
+                <h3>Find your ideal Tv</h3>
+                <img src="img/aghaby2.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Headphones | Below 650 EGP</h3>
+                <img src="img/km.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="bigdivdeal">
+        <div class="sliderwithprice">
+            <h2>Deals Under 25$</h2>
+            <div class="productsInSlider">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/bootsm.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/jm.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/bootsw.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/f1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/p1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/p2x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/o1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/h1x.jpg" alt="">
+                    </div>
+                    <div class="offers">
+                        <p>40% off</p>
+                        <span>deal</span>
+                    </div>
+                    <p class="price">$ <span>200</span>List Price:$160</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="secd_slider_big">
+        <div class="slider">
+            <div class="imgBox">
+                <div class="eachimage">
+                    <img src="img/mn.jpg" alt="">
+                </div>
+                <div class="eachimage">
+                    <img src="img/nm.jpg" alt="">
+                </div>
+                <div class="eachimage">
+                    <img src="img/nn.jpg" alt="">
+                </div>
+                <div class="eachimage">
+                    <img src="img/gg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="bigdivslider">
+        <div class="sliders">
+            <h2>Shop Today's Deals</h2>
+            <div class="productsInSlider">
+                <img src="img/o1x.jpg" alt="">
+                <img src="img/o2x.jpg" alt="">
+                <img src="img/o3x.jpg" alt="">
+                <img src="img/ss9.jpg" alt="">
+                <img src="img/h1x.jpg" alt="">
+                <img src="img/h2x.jpg" alt="">
+                <img src="img/h3x.jpg" alt="">
+                <img src="img/o4x.jpg" alt="">
+                <img src="img/h4x.jpg" alt="">
+                <img src="img/p2x.jpg" alt="">
+                <img src="img/p1x.jpg" alt="">
+                <img src="img/p3x.jpg" alt="">
+                <img src="img/p4x.jpg" alt="">
+                <img src="img/ss1.jpg" alt="">
+                <img src="img/ss10.jpg" alt="">
+                <img src="img/s102.jpg" alt="">
+                <img src="img/mm.jpg" alt="">
+                <img src="img/ss4.jpg" alt="">
+                <img src="img/ss5.jpg" alt="">
+                <img src="img/s.jpg" alt="">
+                <img src="img/ss7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="big_div">
+        <div class="box-row">
+            <div class="box-col">
+                <h3>Lunch boxes 20% off</h3>
+                <img src="img/lx.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Sport tools 15% off</h3>
+                <img src="img/sp.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+
+            <div class="box-col">
+                <h3>Jewelry & accessories</h3>
+                <img src="img/jaa.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+            <div class="box-col">
+                <h3>Hair Styling & More</h3>
+                <img src="img/xxx.jpg" alt="">
+                <a href="#">Shop More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bigdivslider">
+        <div class="sliders">
+            <h2>Shop Today's Deals</h2>
+            <div class="productsInSlider">
+                <img src="img/o1x.jpg" alt="">
+                <img src="img/o2x.jpg" alt="">
+                <img src="img/o3x.jpg" alt="">
+                <img src="img/ss9.jpg" alt="">
+                <img src="img/h1x.jpg" alt="">
+                <img src="img/h2x.jpg" alt="">
+                <img src="img/h3x.jpg" alt="">
+                <img src="img/o4x.jpg" alt="">
+                <img src="img/h4x.jpg" alt="">
+                <img src="img/p2x.jpg" alt="">
+                <img src="img/p1x.jpg" alt="">
+                <img src="img/p3x.jpg" alt="">
+                <img src="img/p4x.jpg" alt="">
+                <img src="img/ss1.jpg" alt="">
+                <img src="img/ss10.jpg" alt="">
+                <img src="img/s102.jpg" alt="">
+                <img src="img/mm.jpg" alt="">
+                <img src="img/ss4.jpg" alt="">
+                <img src="img/ss5.jpg" alt="">
+                <img src="img/s.jpg" alt="">
+                <img src="img/ss7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slider2divbig">
+        <section class="sects-2">
+            <div class="slider-2">
+                <div class="right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <h3>Shop Today's Deals</h3>
+                <ul class="items">
+                    <li><img src="img/ss1.jpg" alt=""></li>
+                    <li><img src="img/ss10.jpg" alt=""></li>
+                    <li><img src="img/s102.jpg" alt=""></li>
+                    <li><img src="img/mm.jpg" alt=""></li>
+                    <li><img src="img/ss4.jpg" alt=""></li>
+                    <li><img src="img/ss5.jpg" alt=""></li>
+                    <li><img src="img/s.jpg" alt=""></li>
+                    <li><img src="img/ss7.jpg" alt=""></li>
+                    <li><img src="img/ss8.jpg" alt=""></li>
+                    <li><img src="img/ss9.jpg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Site footer -->
+    <footer>
+        <div class="footer-gray">
+            <div class="footer-custom">
+                <div class="footer-lists">
+                    <div class="footer-list-wrap">
+                        <h6 class="ftr-hdr">Order Toll Free</h6>
+                        <ul class="ftr-links-sub">
+                            <li>800-952-5592</li>
+                        </ul>
+                        <h6 class="ftr-hdr">International</h6>
+                        <ul class="ftr-links-sub">
+                            <li><a href="http://www.art.fr" rel="nofollow">France</a></li>
+                            <li><a href="https://www.art.co.uk" rel="nofollow">United Kingdom</a></li>
+                        </ul>
+                    </div>
+                    <!--/.footer-list-wrap-->
+                    <div class="footer-list-wrap">
+                        <h6 class="ftr-hdr">Customer Service</h6>
+                        <ul class="ftr-links-sub">
+                            <li><a href="/help/talktous.html" rel="nofollow">Contact Us</a></li>
+                            <li><a href="/help/placingorders.html" rel="nofollow">Ordering</a></li>
+                            <li><a href="/help/shipping.html" rel="nofollow">Shipping &amp; Delivery</a></li>
+                            <li><a href="/help/shippingreturns.html" rel="nofollow">Returns</a></li>
+                            <li><a href="/help/international-shipping.html" rel="nofollow">International Orders</a>
+                            </li>
+                            <li><a href="/~/egift-cards/" rel="nofollow">Gift Cards</a></li>
+                            <li><a href="/help/faq.html" rel="nofollow">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-list-wrap">
+                        <h6 class="ftr-hdr">About Art.com</h6>
+                        <ul class="ftr-links-sub">
+                            <li><a href="/asp/aboutus/default-asp/_/posters.htm" rel="nofollow">Our Company</a></li>
+                            <li><a href="http://corporate.art.com/careers" rel="nofollow">Careers</a></li>
+                            <li><a href="/asp/landing/artistrising" rel="nofollow">Artist Rising</a></li>
+                            <li><a href="/~/art-for-business" rel="nofollow">Business &amp; Trade Sales</a></li>
+                            <li><a href="http://affiliates.art.com/index.aspx" rel="nofollow">Affiliate Program</a>
+                            </li>
+                            <li><a href="/catalog" rel="nofollow"><strong>Shop Our Catalog</strong></a></li>
+                            <li><a href="http://blog.art.com" rel="nofollow">ART.COM BLOG</a></li>
+                        </ul>
+                    </div>
+                    <!--/.footer-list-wrap-->
+                    <div class="footer-list-wrap">
+                        <h6 class="ftr-hdr">My Account</h6>
+                        <ul class="ftr-links-sub">
+                            <art:content rule="!loggedin">
+                                <li class="ftr-Login"><span class="link login-trigger">Access My Account</span></li>
+                                <li><span class="link"
+                                        onclick="link('/asp/secure/your_account/track_orders-asp/_/posters.htm')">Track
+                                        My Order</span></li>
+                            </art:content>
+                            <art:content rule="loggedin">
+                                <li class="ftr-Login"><span class="link ftr-access-my-account">Access My
+                                        Account</span>
+                                </li>
+                                <li><span class="link"
+                                        onclick="window.location.href = getProfileKey() + '?pagetype=oh';">Track My
+                                        Order</span></li>
+                            </art:content>
+                        </ul>
+                    </div>
+                    <!--/.footer-list-wrap-->
+                </div>
+                <!--/.footer-lists-->
+                <div class="footer-email">
+                    <h6 class="ftr-hdr">Sign up for exclusive offers and inspiration</h6>
+                    <div id="ftr-email" class="ftr-email-form">
+                        <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
+                            <div class="error">Please enter a valid email address</div>
+                            <input type="text" name="email_address_" id="ftrEmailInput" class="input"
+                                placeholder="Enter email address" />
+                            <!--
+                      -->
+                            <input type="submit" class="button" value="SUBMIT" />
+                            <input type="hidden" name="country_iso2" value="">
+                            <input type="hidden" name="language_iso2" value="en">
+                            <input type="hidden" name="site_domain" value="art.com">
+                            <input type="hidden" name="email_acq_source" value="01-000001">
+                            <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
+                            <input type="hidden" name="brand_id" value="ART">
+                            <input type="hidden" name="_ri_"
+                                value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
+                        </form>
+                    </div>
+                    <!--/.ftr-email-form-->
+                    <div class="ftr-email-privacy-policy"></div>
+                </div>
+                <!--/.footer-email-->
+                <div class="footer-social">
+                    <h6 class="ftr-hdr">Follow Us</h6>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/art.com" title="Facebook"
+                                onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
+                                <img width="24" height="24" alt="Like us on Facebook"
+                                    src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/108089796661280870153" title="Google+"
+                                onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);">
+                                <img width="24" height="24" alt="Follow us on Google+"
+                                    src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pinterest.com/artdotcom/" target="_blank">
+                                <img width="24" height="24" alt="Follow us on Pinterest"
+                                    src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://instagram.com/artdotcom/">
+                                <img width="24" height="24" alt="Follow us on Instagram"
+                                    src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/artdotcom" title="Twitter"
+                                onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+                                <img width="67" alt="Follow us on Twitter"
+                                    src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.footer-social-->
+                <div class="footer-legal">
+                    <p> <a href="/help/privacy-policy.html" rel="nofollow">Privacy Policy</a> | <a
+                            href="/help/terms-of-use.html" rel="nofollow">Terms of Use</a> | <a
+                            href="/help/terms-of-sale.html" rel="nofollow">Terms of Sale</a></p>
+
+                </div>
+                <!--/.footer-legal-->
+
+                <!--/.footer-payment-->
+            </div>
+            <!--/.footer-custom-->
+        </div>
+        <!--/.footer-gray-->
+    </footer>
+
+    <!-- Add Bootstrap's JavaScript and jQuery if needed -->
+
+
+
+
+    <script src="./js/home.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
